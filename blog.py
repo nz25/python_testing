@@ -1,5 +1,5 @@
 # blog.py
-from app.post import Post
+from post import Post
 
 class Blog:
 
