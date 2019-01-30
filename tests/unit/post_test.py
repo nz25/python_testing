@@ -1,5 +1,5 @@
 from unittest import TestCase
-from post import Post
+from app.post import Post
 
 class PostTest(TestCase):
     
@@ -14,3 +14,4 @@ class PostTest(TestCase):
         expected = {'title': 'Test', 'content': 'Test Content'}
 
         self.assertDictEqual(expected, p.json())
+        
